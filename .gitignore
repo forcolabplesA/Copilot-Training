@@ -12,3 +12,60 @@ profile.svg
 
 # Time trace
 trace.json
+
+# === Roblox / LuaU ===
+*.rbxl
+*.rbxlx
+*.rblx
+*.rblxmx
+*.rblxmdl
+*.rbxm
+*.rbxmx
+
+# Ignore files saved by Studio plugins or exports
+*.xml
+*.json
+*.txt
+
+# Ignore logs
+*.log
+
+# Ignore metadata or backups
+*.bak
+*.tmp
+*.old
+*.swp
+
+# === Development Tools ===
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / Rider / Roblox LSP configs
+.idea/
+*.iml
+
+# Lua language server cache
+luarc.json
+.luacheckrc
+*.luarc
+
+# Temporary/Debug folders
+build/
+dist/
+out/
+temp/
+tmp/
+
+# Ignore node/npm cache if used
+node_modules/
+package-lock.json
+yarn.lock
+
+# GitHub Copilot Labs cache
+.copilot/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
